@@ -1,0 +1,17 @@
+{
+  "name": "nodedirectuploader",
+  "version": "1.0.0",
+  "description": "Direct upload of images to AWS s3 from browser using Node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "aws-sdk": "2.x",
+    "ejs": "2.x",
+    "express": "4.x"
+  }
+}
